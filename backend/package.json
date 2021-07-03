@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "knex": "^0.95.6",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "prettier": "^2.3.2",
+    "sqlite3": "^5.0.2"
+  }
+}
