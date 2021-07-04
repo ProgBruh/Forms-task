@@ -1,0 +1,15 @@
+@import './components/Button/Button.scss';
+@import './components/Index/Index.scss';
+@import './components/Info/Info.scss';
+@import './components/Input/Input.scss';
+@import './components/Select/Select.scss';
+@import './components/signIn/signIn.scss';
+@import './components/signUp/signUp.scss';
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

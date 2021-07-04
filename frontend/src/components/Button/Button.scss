@@ -1,0 +1,26 @@
+.button {
+  border-radius: 4px;
+  border-left: 2px solid #2c3e50;
+  border-top: 2px solid #2c3e50;
+  border-right: 2px solid #2c3e50;
+  border-bottom: 4px solid #2c3e50;
+
+  background-color: #2980b9;
+
+  font-size: 15px;
+
+  color: white;
+
+  padding: 7px 12px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #5499c7;
+  }
+
+  &--disabled {
+    background-color: #7fb3d5 !important;
+    border-color: #abb2b9;
+  }
+}

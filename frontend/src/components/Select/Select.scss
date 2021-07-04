@@ -1,0 +1,32 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 27px;
+    font-weight: 300;
+  }
+
+  &__wrapper {
+    min-width: 170px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__name {
+    font-size: 15px;
+
+    margin-bottom: 3px;
+  }
+}

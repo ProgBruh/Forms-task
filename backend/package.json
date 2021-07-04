@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@koa/cors": "^3.1.0",
     "bcrypt": "^5.0.1",
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",

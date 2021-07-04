@@ -1,0 +1,39 @@
+.info {
+  width: 420px;
+
+  border-radius: 7px;
+  border-left: 2px solid #566573;
+  border-top: 2px solid #566573;
+  border-right: 2px solid #566573;
+  border-bottom: 4px solid #566573;
+
+  padding: 20px 30px;
+
+  @include mobile {
+    width: 100%;
+    min-width: 220px;
+
+    border: none;
+  }
+
+  &__logout {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-bottom: 10px;
+  }
+
+  &__logout-button {
+    padding: 5px !important;
+  }
+
+  &__wrapper {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 15px;
+  }
+}
